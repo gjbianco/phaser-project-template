@@ -6,7 +6,8 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --config webpack/webpack.dev.js",
-    "build": "webpack --config webpack/webpack.prod.js"
+    "build": "webpack --config webpack/webpack.prod.js",
+    "format": "prettier src/**/*.{ts,html} --write"
   },
   "keywords": [
     "Phaser",
@@ -38,6 +39,7 @@
     "clean-webpack-plugin": "^1.0.1",
     "copy-webpack-plugin": "^5.0.0",
     "html-webpack-plugin": "^3.2.0",
+    "prettier": "^1.17.0",
     "ts-loader": "^5.3.3",
     "typescript": "^3.3.3333",
     "webpack": "^4.29.6",
